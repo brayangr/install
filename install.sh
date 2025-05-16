@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 # Install dependencies
-sudo pacman -Syyu kitty curl git cmake vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm
+sudo pacman -Syu --noconfirm kitty curl git cmake vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm bitwarden waybar otf-font-awesome xdg-desktop-portal-wlr
+yay -S flameshot-gui
 
 # Install zellij
 
