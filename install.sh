@@ -7,13 +7,7 @@ sudo pacman -Syu --noconfirm kitty curl git cmake base-devel vlc stow nvim adobe
 chmod +x install_yay.sh
 ./install_yay.sh
 
-yay -S flameshot-gui brave-git swayfx
-
-# Install zellij
-
-
-chmod +x install_zellij.sh
-./install_zellij.sh
+yay -S flameshot-gui brave-git swayfx zellij
 
 chmod +x install_zsh.sh
 ./install_zsh.sh
