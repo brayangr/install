@@ -17,7 +17,7 @@ set $term kitty
 set $menu wmenu-run
 
 # Wallpaper
-output * bg /home/tenkawa/Pictures/Wallpapers/yellow_eyes.png fill
+output * bg $HOME/.config/wallpaper.png fill
 
 # Screen settings
 output eDP-1 resolution 1920x1080 scale 1
