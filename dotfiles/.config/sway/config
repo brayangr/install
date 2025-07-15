@@ -224,15 +224,4 @@ bar {
 default_border pixel 0
 gaps inner 10
 
-#
-# swayfx
-#
-
-corner_radius 1
-shadows enable
-default_dim_inactive 0.1
-blur enabled
-blur_passes 3
-blur_radius 2
-
 include /etc/sway/config.d/*
