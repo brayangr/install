@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # Install dependencies
-sudo pacman -Syu --noconfirm hyprpaper kitty curl git cmake base-devel vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm waybar otf-font-awesome networkmanager man pipewire-pulse
+sudo pacman -Syu --noconfirm hyprpaper kitty curl git cmake base-devel vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm waybar otf-font-awesome networkmanager man pipewire-pulse discord ttf-jetbrains-mono-nerd
 
 # Install yay
 chmod +x install_yay.sh
 ./install_yay.sh
 
-yay -Syu flameshot-git zellij
+yay -Syu flameshot-git zellij spotify visual-studio-code-bin
 
 chmod +x install_zsh.sh
 ./install_zsh.sh
