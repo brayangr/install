@@ -17,3 +17,4 @@ chmod +x install_docker.sh
 
 cd dotfiles
 stow -v --adopt --target=$HOME/.config .config
+stow -v --adopt --target=$HOME/.scripts .scripts
