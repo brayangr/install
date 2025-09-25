@@ -1,0 +1,3 @@
+[server]
+max_volume = 100
+style = "./style.css"
