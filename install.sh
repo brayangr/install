@@ -7,10 +7,7 @@ sudo pacman -Syu --noconfirm hyprpaper kitty curl git cmake base-devel vlc stow 
 chmod +x install_yay.sh
 ./install_yay.sh
 
-yay -Syu flameshot-git zellij spotify visual-studio-code-bin swayosd
-
-# Enable Swayosd service
-sudo systemctl enable --now swayosd-libinput-backend.service
+yay -Syu flameshot-git zellij spotify visual-studio-code-bin
 
 chmod +x install_zsh.sh
 ./install_zsh.sh
