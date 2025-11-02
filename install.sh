@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
 # Install dependencies
-sudo pacman -Syu --noconfirm hyprpaper kitty curl git cmake base-devel vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm waybar otf-font-awesome networkmanager man pipewire-pulse discord ttf-jetbrains-mono-nerd alsa-scarlett-gui
+sudo pacman -Syu --noconfirm kitty curl git cmake base-devel vlc stow nvim adobe-source-han-sans-jp-fonts rbenv nvm otf-font-awesome man discord ttf-jetbrains-mono-nerd alsa-scarlett-gui libreoffice-fresh dbeaver
 
 # Install yay
 chmod +x install_yay.sh
 ./install_yay.sh
 
-yay -Syu flameshot-git zellij spotify visual-studio-code-bin
+yay -Syu zellij spotify visual-studio-code-bin doppler-cli noto-color-emoji-fontconfig aws-session-manager-plugin windsurf
 
 chmod +x install_zsh.sh
 ./install_zsh.sh
